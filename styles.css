@@ -1,0 +1,41 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #444;
+}
+
+header {
+    background-color: #B9A897; /* Color elegante y neutral */
+    color: #2E2E2E; /* Color oscuro para el texto */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 18px;
+    font-style: italic;
+    margin: 5px 0 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a
