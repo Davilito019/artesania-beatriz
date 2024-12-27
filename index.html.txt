@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artesanía de Beatriz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Artesanía de Beatriz</h1>
+            <p>Creaciones únicas de Beatriz</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Foto de presentación -->
+    <section class="presentacion">
+        <h2>Bienvenido a nuestra tienda de artesanía de cera</h2>
+        <p>Explora nuestra selección de velas y figuras de cera, todas creadas a mano con amor y dedicación.</p>
+        <img src="https://placekitten.com/1200/600" alt="Foto de presentación" class="foto-presentacion">
+    </section>
+
+    <!-- Listado de productos -->
+    <section id="productos" class="productos">
+        <h2>Productos Destacados</h2>
+        <div class="producto">
+            <img src="https://placekitten.com/300/300" alt="Velas Artesanales">
+            <p><strong>Velas Artesanales</strong></p>
+            <p>€15</p>
+            <p>Velas decorativas hechas a mano, con cera natural y fragancias suaves.</p>
+        </div>
+        <div class="producto">
+            <img src="https://placekitten.com/301/300" alt="Figuras de Cera">
+            <p><strong>Figuras de Cera</strong></p>
+            <p>€25</p>
+            <p>Figuras artesanales que puedes usar como decoración o regalo especial.</p>
+        </div>
+        <div class="producto">
+            <img src="https://placekitten.com/302/300" alt="Velas Decorativas">
+            <p><strong>Velas Decorativas</strong></p>
+            <p>€20</p>
+            <p>Velas decorativas con diseños únicos y elegantes, perfectas para cualquier ocasión.</p>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h2>Galería</h2>
+        <div class="imagenes-galeria">
+            <img src="https://placekitten.com/400/300" alt="Galería 1">
+            <img src="https://placekitten.com/401/300" alt="Galería 2">
+            <img src="https://placekitten.com/402/300" alt="Galería 3">
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Para consultas rápidas, contáctanos al número: <strong>635537318</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Artesanía de Beatriz | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
